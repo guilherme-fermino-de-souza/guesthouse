@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 200vh;
+    background-image: url(../imagens/galeria/background-forest.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1280px;
+
+}
+
+/*navbar start*/
+header {
+    display: flex;
+   
+    background-color: #ffffff;
+    height: 180px;
+    background-size: cover;
+}
+
+.flex img {
+    height: 150px;
+    padding-right: 5px;
+}
+.logo {
+    display: flex;
+}
+header h1 {
+    font-family: Blippo, fantasy;
+    font-size: 40px;
+    font-weight: 100;
+    padding-left:10px;
+    padding-top: 50px ;
+}
+
+header i {
+    height: 100px;
+    
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.navbar-conteudo {
+    padding-bottom: 100px;
+}
+
+.bnt-contato {
+    padding-left: 100%;
+    padding-bottom: 0px;
+    color: #ff0000;
+}
+
+header ul li a {
+    color: black;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+    padding: 0 10px;
+    padding-bottom: 25px;
+    
+}
+
+header a {
+    text-decoration: none;
+    
+}
+
+a :hover {
+    color: #00CB75;
+}
+
+
+
+/*navbar end/*
+
+/*carousel star*/
+.carousel-item img {
+    width: 400px;
+    height: 800px;
+}
+
+/*carousel end*/
+.carousel-item h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+.carousel-item p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+/*imagens start*/
+.container-imagens {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-imagens img {
+    height: 550px;
+    padding: 2% 2%;
+}
+
+.container-conteudo {
+    display: flex;
+}
+
+.container-conteudo h2 {
+    font-size: 70px;
+    padding: 2% 2%;
+    color: #00CB75;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-conteudo p {
+    font-size: 30px;
+    padding: 0% 2%;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-conteudo a {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*imagens end*/
+
+/*footer star*/
+.footer {
+    background-image: url(../imagens/galeria/white-screen.webp);
+    display: flex;
+    align-items: center center;
+    padding: 0 20%;
+}
+
+.footer img {
+    height: 50px;
+    padding: 0 50px;
+    align-items: center;
+}
+
+.footer h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    padding: 0 100px;
+    align-items: center;
+    font-weight: 300;
+}
+
+/*footer end*/
